@@ -5,10 +5,10 @@ metadata:
 spec:
   params:
   - name: repository
-    description: The git repo
+    description: "The git repo"
     default: " "
   - name: branch
-    description: the branch for the git repo
+    description: "The branch for the git repo"
     default: main
   resourcetemplates:
   - apiVersion: tekton.dev/v1beta1
